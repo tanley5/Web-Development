@@ -1,0 +1,94 @@
+/*Global*/
+h1
+{
+    text-align: center;
+}
+
+body
+{
+    background: url(../img/astronomy-constellation-cosmos-2162.jpg);
+    color:white;
+}
+
+/*Index.php*/
+.index-container
+{
+    position: relative;
+    margin-top: 25%;
+}
+
+.container-landing
+{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-button
+{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    color:black;
+}
+
+#main-button:hover
+{
+    background-color: black;
+    color: beige;
+}
+
+/*Music*/
+.container
+{
+    border: 1px solid silver;
+    border-radius: 10px;
+    background: url(../img/astronomy-constellation-dark-998641.jpg);
+    margin-top:20px;;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+}
+
+.music-container
+{
+    margin-top: 30px;
+    position: static;
+    margin: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black
+}
+
+*.cell
+{
+    padding: 10px;
+    border: 1px solid beige;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.cell a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.cell:hover
+{
+    background-color: white;
+}
+
+.cell a:hover
+{
+    color: black;
+}
